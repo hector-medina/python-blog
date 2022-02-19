@@ -36,14 +36,20 @@ This might change a little bit if you're using windows OS.
 pip install doc/requirements.txt
 ```
 
-**6. Enable dev server.**
+**6. Update database.**
+
+```
+python manage.py migrate
+```
+
+**7. Enable dev server.**
 
 ```
 cd mysite
 python manage.py runserver
 ```
 
-**7. Access your app.**
+**8. Access your app.**
 
 You should be able to access the development server by typing http://localhost:8000 or http://127.0.0.1:8000 in your browser.
 
