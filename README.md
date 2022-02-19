@@ -33,22 +33,28 @@ This might change a little bit if you're using windows OS.
 **5. Install required dependencies.**
 
 ```
-pip install doc/requirements.txt
+pip install -r doc/requirements.txt
 ```
 
-**6. Update database.**
+**6. Switch to mysite directory**
+
+```
+cd mysite
+```
+
+**7. Update database.**
 
 ```
 python manage.py migrate
 ```
 
-**7. Enable dev server.**
+**8. Enable dev server.**
 
 ```
 python manage.py runserver
 ```
 
-**8. Access your app.**
+**9. Access your app.**
 
 You should be able to access the development server by typing http://localhost:8000 or http://127.0.0.1:8000 in your browser.
 
