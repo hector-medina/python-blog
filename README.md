@@ -45,7 +45,6 @@ python manage.py migrate
 **7. Enable dev server.**
 
 ```
-cd mysite
 python manage.py runserver
 ```
 
